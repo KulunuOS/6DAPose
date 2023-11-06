@@ -1,0 +1,13 @@
+repositories:
+  realsense2_description:
+    type: git
+    url: https://github.com/issaiass/realsense2_description.git
+    version: master
+  realsense_gazebo_plugin:
+    type: git
+    url: https://github.com/pal-robotics/realsense_gazebo_plugin.git
+    version: melodic-devel
+  bop_toolkit:
+    type: git
+    url: https://github.com/thodan/bop_toolkit.git
+    version: master
