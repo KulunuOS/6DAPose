@@ -11,3 +11,7 @@ repositories:
     type: git
     url: https://github.com/thodan/bop_toolkit.git
     version: master
+  geometry2:
+    type: git
+    url: https://github.com/ros/geometry2
+    version: noetic-devel
