@@ -4,7 +4,7 @@ This work presents a pointcloud registration based assembly pose estimation meth
 segmentation of the scene and registering point clouds of local surfaces against target point clouds derived from CAD models in order to detect 6D poses.
 The method is demonstrated and evaluated on two synthetic object assembly datasets generated in gazebo simulation environment.
 
-Download the datasets [here](https://zenodo.org/records/10077630)
+Download the datasets [here](https://zenodo.org/records/10117869)
 
 
 ## Requirements
