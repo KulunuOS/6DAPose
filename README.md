@@ -77,7 +77,7 @@ $ roslaunch data_generation fidget.launch
 $ source /opt/ros/noetic/setup.bash
 $ cd ~/6DAPose
 $ source devel/setup.bash
-# rosrun tf2_tools echo2.py base_link camera_depth_optical_frame
+# rosrun tf2_tools echo_tfs.py base_link camera_depth_optical_frame
 
 ```
 3. Launch the script to generate and save data. set argument -d to define dataset and argument -s to define the assembly steps. 
