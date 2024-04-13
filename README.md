@@ -6,6 +6,30 @@ The method is demonstrated and evaluated on two synthetic object assembly datase
 
 Download the datasets [here](https://zenodo.org/records/10117869)
 
+Please use the following citation if you used this repository in your publications:
+
+```
+@article{samarawickrama20236d,
+  title={6D Assembly Pose Estimation by Point Cloud Registration for Robot Manipulation},
+  author={Samarawickrama, Kulunu and Sharma, Gaurang and Angleraud, Alexandre and Pieters, Roel},
+  journal={arXiv preprint arXiv:2312.02593},
+  year={2023}
+}
+```
+
+
+Also if you utilized the data generation [pipeline](#generate-or-download-datasets) in your framework please cite the following:
+
+```
+@InProceedings{Saad_2021_ICAR,
+author = {Saad Ahmad, Kulunu Samarawickrama, Esa Rahtu and Roel Pieters},
+title = {Automatic Dataset Generation From CAD for Vision Based Grasping},
+booktitle = {20th International Conference on Advanced Robotics (ICAR)},
+month = {December},
+year = {2021}
+}
+```
+
 
 ## Requirements
 
@@ -97,6 +121,9 @@ $ python3 render_icp_data.py -m Nema17 sun_gear housing carrier cover -d Nema17
 $ python3 6DAPose.py
 ```
 
+### Acknowledgements
+
+Project funding was received from Helsinki Institute of Physics’ Technology Programme (project; ROBOT) and European Union’s Horizon 2020 research and innovation programme, grant agreement no. 871252 (METRICS).
 
 
 
