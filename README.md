@@ -79,7 +79,7 @@ $ colcon build
 
 ### Generate or download datasets
 
-Follow the instructions below, if you want to generate the dataset locally or download the [datasets](https://zenodo.org/records/10077630) inside directories /fidget_dataset and /Nema17_reducer_dataset
+Follow the instructions below, if you want to generate the dataset locally or download the [datasets](https://zenodo.org/records/10077630) and copy to directories "/fidget_dataset" or "/Nema17_reducer_dataset"
 
 1. Launch the gazebo simulation package
 ```
