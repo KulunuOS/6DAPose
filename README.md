@@ -17,20 +17,6 @@ Please use the following citation if you used this repository in your publicatio
 }
 ```
 
-
-If you utilized the data generation [pipeline](#generate-or-download-datasets) in your framework please cite the following:
-
-```
-@InProceedings{Saad_2021_ICAR,
-author = {Saad Ahmad, Kulunu Samarawickrama, Esa Rahtu and Roel Pieters},
-title = {Automatic Dataset Generation From CAD for Vision Based Grasping},
-booktitle = {20th International Conference on Advanced Robotics (ICAR)},
-month = {December},
-year = {2021}
-}
-```
-
-
 ## Requirements
 
 The source code is tested under following specifications
@@ -77,9 +63,13 @@ $ colcon build
 
 ## Evaluation
 
-### Generate or download datasets
+### Download Dataset
 
-Follow the instructions below, if you want to generate the dataset locally or download the [datasets](https://zenodo.org/records/10077630) and copy to directories "/fidget_dataset" or "/Nema17_reducer_dataset"
+Download the [datasets](https://zenodo.org/records/10117869) and copy to directories "/fidget_dataset" or "/Nema17_reducer_dataset"
+
+### Generate the Dataset on locally
+
+Follow the instructions below if you want to generate the dataset locally 
 
 1. Launch the gazebo simulation package
 ```
