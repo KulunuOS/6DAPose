@@ -67,7 +67,7 @@ $ colcon build
 
 Download the [datasets](https://zenodo.org/records/10117869) and copy to directories "/fidget_dataset" or "/Nema17_reducer_dataset"
 
-### Generate the Dataset on locally
+### Generate the Dataset locally
 
 Follow the instructions below if you want to generate the dataset locally 
 
