@@ -1,5 +1,10 @@
 # 6DAPose
 
+<div align="center">
+  <img src="./assets/framework2.png" alt="Framework Diagram" width="600"/>
+  <p><em>Source: https://ieeexplore.ieee.org/document/10711374</em></p>
+</div>
+
 This work presents a pointcloud registration based assembly pose estimation method for robotic assembling. The framework consists of semantic
 segmentation of the scene and registering point clouds of local surfaces against target point clouds derived from CAD models in order to detect 6D poses.
 The method is demonstrated and evaluated on two synthetic object assembly datasets generated in gazebo simulation environment.

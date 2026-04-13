@@ -231,9 +231,7 @@ if __name__ == "__main__":
 
     for i in range(0, n_instances):
         time.sleep(3)
-        start = time.time()
-        if i% 100 == 0:
-            print("calculating instance :", str(i))
+        print("calculating instance :", str(i))
 
         item = this_dataset(stage,dataset)
         reg_result, error,te,re, mssd, gt_assembly_pose = eval_assembly_pose(item,stage,models,im_id=str(i))
